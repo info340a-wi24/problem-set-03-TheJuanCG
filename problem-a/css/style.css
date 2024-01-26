@@ -1,0 +1,50 @@
+/* first */
+svg circle {
+    fill: #5f5f5f;
+}
+
+/* 2nd */
+svg path {
+    stroke: #5f5f5f;
+    stroke-width: 8px;
+}
+/*3rd*/
+svg circle.small{
+    fill: white;
+}
+
+/*4th*/
+g.contained circle.small {
+    fill: #573d29;
+}
+
+/* 8th */
+rect {
+    opacity: 0;
+}
+
+/*5th*/
+
+g.contained circle, g.contained rect{
+    fill: #c0c0c0;
+    stroke: none;
+    opacity: 1;
+}
+
+/*6th*/
+
+path#interactive {
+    fill: #c0c0c0;
+    stroke: #bd250d;
+    stroke-width: 4px;
+}
+ /* 7th and 8th */
+path#interactive:hover {
+    fill: #bd250d;
+}
+
+/* 9th */
+
+path:nth-last-child(1) {
+    stroke: none;
+}
